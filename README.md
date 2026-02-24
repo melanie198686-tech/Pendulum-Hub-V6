@@ -33,6 +33,7 @@ do -- UI
 	SettingsTab:NewLabel('Note: HumanoidRootPart fling only works after permadeath is on')
 	local anim = Pendulum:NewTab('Animation ID Player')
 	local cwScriptsTab = Pendulum:NewTab('Coffeeware')
+	local ScripptsTab = Pendulum:NewTab('Main')
 	
 	UserInputService.InputBegan:Connect(function(Input,Typing)
 		if Input.KeyCode == Enum.KeyCode.L and not Typing and UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) then
@@ -71,7 +72,7 @@ do -- UI
 	
 	do -- ScriptsTab Buttons
 		ScriptsTab:NewButton("Ender", "Smashy boi", function()
-			loadstring(game:HttpGet("https://pastefy.app/KzEULNKJ/raw"))()
+			loadstring(game:HttpGet("https://pastefy.app/FQcTv2nl/raw"))()
 		end)
 
 		ScriptsTab:NewButton("Xester", "The strongest script out of them all.", function()
@@ -79,11 +80,7 @@ do -- UI
 		end)
 
 		ScriptsTab:NewButton("Minigun", "Have fun spraying skids.", function()
-			loadstring(game:HttpGet("https://pastefy.app/f11IsQSk/raw"))()
-		end)
-
-		ScriptsTab:NewButton("Zen", "literally zenyata", function()
-			loadstring(game:HttpGet('https://pastebin.com/raw/dC8vY4YU'))()
+			loadstring(game:HttpGet("https://pastefy.app/nyv1pR8w/raw"))()
 		end)
 
 		ScriptsTab:NewButton("Gale Fighter", "Another classic!", function()
@@ -98,12 +95,24 @@ do -- UI
 			loadstring(game:HttpGet("https://pastebin.com/raw/bvPbLBrT"))()
 		end)
 
+		ScriptsTab:NewButton("Dubstep Cannon", "idk.", function()
+			loadstring(game:HttpGet("https://pastefy.app/6C4NPh9r/raw"))()
+		end)
+
+		ScriptsTab:NewButton("Debeo Royal Sword", "idk either.", function()
+			loadstring(game:HttpGet("https://pastefy.app/Pz96ZsyQ/raw"))()
+		end)
+
 		ScriptsTab:NewButton("Brutal Anti Furry", "Damn you must hate furrys.", function()
 			loadstring(game:HttpGet('https://pastebin.com/raw/gESUedZ7'))();
 		end)
 
 		ScriptsTab:NewButton("John Doe", "Yeah not mine sry", function()
 			loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-John-doe-46160"))()
+		end)
+
+		ScriptsTab:NewButton("Mad", "Yeah i know its buggy", function()
+			loadstring(game:HttpGet("https://pastefy.app/O37ma9J2/raw"))()
 		end)
 
 		ScriptsTab:NewButton("Jason", "Yes thats the one in forsaken", function()
@@ -118,12 +127,20 @@ do -- UI
 			loadstring(game:HttpGet("https://pastefy.app/ICCRHaGP/raw"))()
 		end)
 
+		ScriptsTab:NewButton("Exotic Sniper Cannon", "Why so cool?", function()
+			loadstring(game:HttpGet("https://pastefy.app/Sm8HyhxJ/raw"))()
+		end)
+
 		ScriptsTab:NewButton("Sledgehammer", "Have  fun sledging people haha you know? no ok.", function()
 			loadstring(game:HttpGet("https://pastefy.app/N9q9Oc3f/raw"))()
 		end)
 
 		ScriptsTab:NewButton("Vereus", "Yes a flying monster i know.", function()
 			loadstring(game:HttpGet("https://pastefy.app/W8temOF0/raw"))()
+		end)
+
+		ScriptsTab:NewButton("Grappler", "not mine grappler.", function()
+			loadstring(game:HttpGet("https://pastefy.app/itNxJKWo/raw"))()
 		end)
 
 		ScriptsTab:NewButton("Server Admin", "A cool being admin.", function()
@@ -142,10 +159,6 @@ do -- UI
 		ScriptsTab:NewButton("LCV", "No fling added sry.", function()
 			loadstring(game:HttpGet("https://pastefy.app/iWF3YdEK/raw"))()
 		end) 
-
-		ScriptsTab:NewButton("AK47", "Very OP gun script.", function()
-			loadstring(game:HttpGet("https://pastefy.app/X5MN43tU/raw"))()
-		end)
 
 		ScriptsTab:NewButton("Banisher", "OMG RAINBOW HACKER", function()
 			loadstring(game:HttpGet("https://pastefy.app/kOzC7NyY/raw"))()
@@ -179,10 +192,6 @@ do -- UI
 			loadstring(game:HttpGet("https://pastefy.app/riYch0rX/raw"))()
 		end)
 
-		ScriptsTab:NewButton("Goner", "Sounds like gooner lol.", function()
-			loadstring(game:HttpGet("https://pastefy.app/kYoDWUnE/raw"))()
-		end)
-
 		ScriptsTab:NewButton("Lighting cannon", "PEOW PEOW", function()
 			loadstring(game:HttpGet("https://pastefy.app/iWF3YdEK/raw"))()
 		end)
@@ -202,6 +211,10 @@ do -- UI
 		ScriptsTab:NewButton("mask", "doesnt fling nooooo", function()
 			loadstring(game:HttpGet("https://pastefy.app/Tr2YF0S8/raw"))()
 		end)
+
+		ScriptsTab:NewButton("cadacus", "Wow you read this!", function()
+			loadstring(game:HttpGet("https://pastefy.app/1kC4EISs/raw"))()
+		end)
 		
 		ScriptsTab:NewSearchBar()
 	end
@@ -216,6 +229,18 @@ end)
 
 OMGFESEX:NewButton("Kiss", "Girl kiss", function()
     loadstring(game:HttpGet("https://pastefy.app/gbS6vnpG/raw"))()
+end)
+
+ScripptsTab:NewButton("Fly", "Just fly around", function()
+		loadstring(game:HttpGet("https://pastefy.app/deEp9Cbp/raw"))()
+end)
+
+ScripptsTab:NewButton("Noclip", "Just go trough walls", function()
+		loadstring(game:HttpGet("https://pastefy.app/PzG9qIIm/raw"))()
+end)
+
+ScripptsTab:NewButton("Create floor", "Its good for fe scripts.", function()
+		loadstring(game:HttpGet("https://pastefy.app/TGVZw3GA/raw"))()
 end)
 
 	
@@ -240,7 +265,8 @@ end)
 		CreditsTab:NewLabel("Ty ProductionTakeOne#3330 for help with new reanimation")
 		CreditsTab:NewLabel("Old ui was made by charli#4616")
 		CreditsTab:NewLabel("New ui was made by padero#3957")
-		CreditsTab:NewLabel("everthing got fixed by babylarry_20947")
+		CreditsTab:NewLabel("2026 fix made by babylarry_20947")
+		CreditsTab:NewLabel("----------------------------")
 		CreditsTab:NewButton("babylarry youtube channel","( - x0o0x_)",function()setclipboard("https://www.youtube.com/@1x1x1x1-q8w")end)
 		
 		CreditsTab:NewButton("\67\111\112\121\32\68\105\115\99\111\114\100\32\73\110\118\105\116\101", "\67\111\112\105\101\115\32\116\104\101\32\105\110\118\105\116\101\46.", function()
@@ -295,7 +321,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 			loadstring(game:HttpGet("https://pastefy.app/dtxHMEl0/raw"))()
 		end)
 
-		cwScriptsTab:NewButton('READ THIS', 'yeah some people said remove the gooner shit and idk just dm me if i schould', function()
+		cwScriptsTab:NewButton('READ THIS', 'people said remove the gooner shit and idk just dm me if i schould', function()
 			loadstring(game:HttpGet("https://pastefy.app/9NGFfTda/raw"))()
 		end)
 		
@@ -320,6 +346,9 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 		TweenService:Create(Camera,TweenInfo.new(0.5,Enum.EasingStyle.Quad,Enum.EasingDirection.InOut),{FieldOfView=FOV}):Play()
 	end)
 end
+
+
+
 
 
 

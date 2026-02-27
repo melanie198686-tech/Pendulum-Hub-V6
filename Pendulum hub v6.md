@@ -215,6 +215,10 @@ do -- UI
 		ScriptsTab:NewButton("cadacus", "Wow you read this!", function()
 			loadstring(game:HttpGet("https://pastefy.app/1kC4EISs/raw"))()
 		end)
+
+		ScriptsTab:NewButton("Slasher", "Uses emperyan", function()
+			loadstring(game:HttpGet("https://pastefy.app/B4eRXd9u/raw"))()
+		end)
 		
 		ScriptsTab:NewSearchBar()
 	end

@@ -210,6 +210,14 @@ do -- UI
 		ScriptsTab:NewButton("Slasher", "Uses emperyan", function()
 			loadstring(game:HttpGet("https://pastefy.app/B4eRXd9u/raw"))()
 		end)
+
+		ScriptsTab:NewButton("Neko v4", "Uhm YEAHH", function()
+			loadstring(game:HttpGet("https://pastefy.app/0qlZCrbF/raw"))()
+		end)
+
+		ScriptsTab:NewButton("Katanarist", "slice your pp", function()
+			loadstring(game:HttpGet("https://pastefy.app/CGRGhYrs/raw"))()
+		end)
 		
 		ScriptsTab:NewSearchBar()
 	end
